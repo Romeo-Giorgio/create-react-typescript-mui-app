@@ -1,6 +1,6 @@
 {
     "name": "@romgio/create-react-typescript-mui-app",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "bin": "./bin/cli.js",
     "main": "src/index.ts",
     "description": "Starter for a React Typesrcipt app using material ui",
