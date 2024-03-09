@@ -14,7 +14,7 @@ const runCommand = command=>{
 
 const repoName = process.argv[2];
 const gitCheckoutCommand = `git clone --depth 1 git@github.com:Romeo-Giorgio/create-react-typescript-mui-app.git ${repoName}`;
-const installDepsCommand = `cd ${repoName} && npm install`;
+const installDepsCommand = `cd ${repoName} && yarn install`;
 const resetGitCommand = `cd ${repoName} && rm -rf .git && git init`;
 const setProjectSettings = `cd ${repoName} && node -e "let pkg=require('./package.json'); pkg.name='${repoName}'; pkg.version='1.0.0'; pkg.author=''; pkg.repository=undefined; pkg.description=''; require('fs').writeFileSync('package.json', JSON.stringify(pkg, null, 2));"`
 
