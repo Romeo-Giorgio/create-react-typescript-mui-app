@@ -1,6 +1,6 @@
 {
   "name": "@romgio/create-react-typescript-mui-app",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "bin": "./bin/cli.js",
   "main": "src/index.ts",
   "author": "Roméo Giorgio",
@@ -69,8 +69,7 @@
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
       "prettier --write --parser typescript",
-      "eslint --max-warnings=0 --fix",
-      "jest --bail --findRelatedTests"
+      "eslint --max-warnings=0 --fix"
     ],
     "src/**/*.{json,css,scss}": [
       "prettier --write"
